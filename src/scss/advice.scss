@@ -1,0 +1,43 @@
+.advice {
+  padding: 100px 0 112px;
+  text-align: left;
+  background: url("../img/advice/advice-bg.png") center/cover;
+  color: white;
+
+  &__title {
+    font-size: 36px;
+    max-width: 769px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+  }
+
+  &__subTitle {
+    font-size: 20px;
+    margin-bottom: 35px;
+    max-width: 396px;
+  }
+
+  &__form {
+    .form-type {
+      padding: 21px 130px 18px 21px;
+      margin-bottom: 14px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      border: 1px solid #FFFFFF;
+    }
+  }
+  &__btn{
+    text-transform: uppercase;
+    padding: 21px 44px;
+    background: red;
+    color: white;
+    border: 1px solid red;
+    width: 323px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+}

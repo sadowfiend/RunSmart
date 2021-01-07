@@ -1,0 +1,34 @@
+.advantages{
+  padding: 70px 0 80px;
+  text-align: center;
+  &__title{
+    font-size: 30px;
+    margin: 0 auto 65px;
+  }
+  &__box{
+    .wrapper{
+      img{
+        margin-bottom: 38px;
+      }
+      &__title{
+        margin: 38px;
+        font-size: 18px;
+      }
+      &__text-1{
+        margin: 0 auto 0;
+        font-size: 14px;
+        width: 239px;
+      }
+      &__text-2{
+        margin: 0 auto 0;
+        font-size: 14px;
+        width: 243px;
+      }
+      &__text-3{
+        margin: 0 auto 0;
+        font-size: 14px;
+        width: 247px;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import "../fonts/stylesheet.css";
+@import "../libs/bootstrap-grid.min.css";
+@import "../libs/owl/css/owl.carousel.min.css";
+@import "../libs/owl/css/owl.theme.default.min.css";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Museo Sans Cyrl 700',sans-serif;
+}
+@media (min-width: 992px) {
+  .container{
+    max-width: 945px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container{
+    max-width: 945px;
+  }
+}
+
+
+@import "header";
+@import "home";
+@import "adv";
+@import "advice";
+@import "slider";
+@import "catalog";

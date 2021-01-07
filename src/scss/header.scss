@@ -1,0 +1,47 @@
+.header{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  &__nav{
+    padding: 21px 0 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    .logo{
+
+    }
+    .text{
+      &__title{
+        font-size: 16px;
+        margin-bottom: 12px;
+      }
+      &__subTitle{
+        font-size: 18px;
+      }
+    }
+    .tel{
+      display: flex;
+      flex-direction: column;
+      &__number{
+        font-size: 18px;
+        text-decoration: none;
+        margin-bottom: 7px;
+        color: white;
+      }
+      &__button{
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 11px 20px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background: red;
+        color: white;
+      }
+    }
+
+  }
+}
